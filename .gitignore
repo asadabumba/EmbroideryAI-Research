@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.local
+local-config.*
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs, temporary files, and backups
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*~
+
+# Dumps and runtime captures
+*.dmp
+*.core
+*.mem
+*.dump
+captures/
+research-captures/
+memory-captures/
+
+# Binary research artifacts and proprietary executables
+*.dll
+*.exe
+*.pdb
+*.i64
+*.idb
+*.bin
+*.emb
+*.EMB
+*.gguf
+*.onnx
+*.pt
+*.pth
+
+# Generated/private research material
+generated-reports/
+private/
+private-backups/
+safety-backups/
+artifacts/
+evidence/raw/
+
+# Notebooks
+.ipynb_checkpoints/

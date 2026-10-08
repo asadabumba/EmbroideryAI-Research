@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "canonical ULEB32 physical spelling",
+    "level": "PROVEN",
+    "source": "synthetic codec fixture",
+    "scope": "physical encoding only"
+  },
+  {
+    "claim": "field may represent a machine status slot",
+    "level": "STRONGLY SUPPORTED",
+    "source": "synthetic classification example",
+    "scope": "not a production rule"
+  },
+  {
+    "claim": "local transition rule is known but the complete strategy is not",
+    "level": "PARTIAL",
+    "source": "synthetic classification example",
+    "scope": "bounded subclaim only"
+  },
+  {
+    "claim": "unseen machine family shares a mapping",
+    "level": "HYPOTHESIS",
+    "source": "synthetic classification example",
+    "scope": "requires falsification"
+  },
+  {
+    "claim": "full native semantic regeneration is established",
+    "level": "NOT PROVEN",
+    "source": "synthetic classification example",
+    "scope": "evidence establishes only physical encoding"
+  },
+  {
+    "claim": "failed capture says something semantic",
+    "level": "INCONCLUSIVE",
+    "source": "synthetic instrumentation failure",
+    "scope": "no semantic inference"
+  }
+]

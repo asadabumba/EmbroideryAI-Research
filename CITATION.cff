@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this research snapshot, please cite it using this metadata."
+title: "EmbroideryAI: Research Tooling for Native Embroidery Formats and Region5 Reconstruction"
+type: software
+authors:
+  - name: "asadabumba"
+version: 0.1.0
+date-released: 2026-10-08
+license: MIT
+abstract: >-
+  Public, sanitized research tooling and documentation for embroidery binary
+  formats, machine-state semantics, provenance, and deterministic Region5
+  physical reconstruction.
+keywords:
+  - reverse engineering
+  - binary analysis
+  - embroidery
+  - Python
+  - research software
