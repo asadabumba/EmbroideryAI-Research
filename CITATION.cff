@@ -5,6 +5,7 @@ type: software
 authors:
   - name: "asadabumba"
 version: 0.1.0
+repository-code: "https://github.com/asadabumba/EmbroideryAI-Research"
 date-released: 2026-10-08
 license: MIT
 abstract: >-

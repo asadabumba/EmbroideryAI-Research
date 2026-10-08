@@ -1,8 +1,32 @@
 # EmbroideryAI
 
+[![CI](https://github.com/asadabumba/EmbroideryAI-Research/actions/workflows/ci.yml/badge.svg)](https://github.com/asadabumba/EmbroideryAI-Research/actions/workflows/ci.yml)
+
 EmbroideryAI is a research-grade Python project exploring native embroidery design formats, machine-state semantics, deterministic Region5 reconstruction, and evidence-driven reverse engineering. The public snapshot focuses on reproducible offline tooling and verified findings; it is not a finished commercial product, a production serializer, or a distribution of proprietary software.
 
 > **Research boundary:** `NATIVE_SEMANTICS_PROVEN = false` and `PRODUCTION_AUTHORITY = false`.
+
+## At a glance
+
+**Long-term goal.** Build an intelligent workflow that can help turn artwork into machine-embroidery designs. The ongoing research is evaluating two possible integration paths: offline generation/editing of native design files, or automation of the embroidery application's user interface when direct file creation is not feasible.
+
+**What works in this public release:**
+
+- A deterministic Python codec for the verified *physical* Region5 record format, with input validation and exact round trips for supported records.
+- A standalone Tajima DST reader and synthetic stitch-command examples.
+- Synthetic models of StateStore ordering and narrowly scoped machine-family translation rules.
+- Evidence/provenance utilities, 29 unit tests, and an automated CI workflow.
+
+**Not yet delivered:** an image-to-embroidery ML model, native `.emb` semantic generation, a production-grade writer, or a working Wilcom GUI agent. The public repository intentionally excludes proprietary runtime materials and private evidence. Research claims are scoped in [Research status](docs/research-status.md).
+
+**Quick start** (Python 3.11+):
+
+```bash
+python -m pip install -e ".[dev]"
+python -m pytest -q
+python -m ruff check .
+python examples/region5_roundtrip.py
+```
 
 ## What this project demonstrates
 
